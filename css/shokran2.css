@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home .nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.497);
+    font-family: "Open Sans", sans-serif;
+}
+
+.home .nav ul {
+    display: flex;
+    list-style-type: none;
+    /* justify-content: flex-end; */
+    padding: 20px;
+    font-size: 16px;
+
+}
+
+.home .nav ul li {
+    margin: 15px;
+
+}
+
+.home .nav ul button {
+    background-color: transparent;
+    border: 2px solid #F3A202;
+    color: black;
+
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.home .nav ul button .google {
+    color: #F3A202;
+    margin: 5px;
+}
+
+.home .nav ul li a {
+
+    text-decoration: none;
+    padding: 15px;
+}
+
+.home .nav .logo img {
+    width: 60px;
+    margin: 15px;
+}
+
+.home .nav .bar {
+    font-size: 25px;
+    margin: 15px;
+    visibility: hidden;
+}
+
+/* ============================================================================= */
+.home .body {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+
+.home .body .desc h1,
+h2,
+.getstarted {
+
+    margin: 20px
+}
+
+
+.home .body .desc h1 {
+    width: 80%;
+    font-family: "Jost", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.home .body .desc h2 {
+    width: 80%;
+    color: rgba(32, 32, 32, 0.6);
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+}
+
+.home .body .pic {
+    width: 40%;
+    height: 374px;
+    margin: 50px;
+}
+
+.home .body .pic img {
+    width: 100%;
+
+}
+
+.home .body .desc button {
+    background-color: #F3A202;
+    font-family: "Jost", sans-serif;
+    border: 2px solid #F3A202;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.home .body .desc {
+    /* margin: 50px;
+    margin-top: 150px; */
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 100px
+}
+
+/* ============================================================================= */
+
+
+.home .brands {
+    padding: 40px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e9ecef;
+}
+
+.home .brands img {
+    width: 80px;
+    height: 80px
+}
+
+/* ============================================================================= */
+.home .htu .htu1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    white-space: nowrap;
+    font-family: "Jost", sans-serif;
+}
+
+.home .htu .htu2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+}
+
+.home .htu .htu2 img {
+    width: 45%;
+    height: 350px;
+}
+
+.home .htu .htu2 p {
+
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin-top: 100px;
+    width: 50%;
+    height: fit-content;
+}
+
+.home .htu .htu2 button {
+    background-color: #ffffff;
+    font-family: "Jost", sans-serif;
+    border: 2px solid #F3A202;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: -150px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* ============================================================================= */
+.home .who .who1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    white-space: nowrap;
+    font-family: "Jost", sans-serif;
+    margin-top: 100px;
+}
+
+.home .who .who2 button {
+    background-color: #ffffff;
+    font-family: "Jost", sans-serif;
+    border: 2px solid #F3A202;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.home .who .who2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.home .who .who2 div {
+    width: 40%;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin-bottom: 100px;
+}
+
+.home .who .who2 div p {
+    margin: 40px;
+    font-size: large;
+
+}
+
+.home .who .who2 div p span {
+    line-height: 50px;
+}
+
+.home .who .who2 div i {
+    color: #F3A202;
+}
+
+/* ============================================================================= */
+.home .cat {
+    background-color: #e9ecef;
+
+}
+
+.home .cat .cat1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    white-space: nowrap;
+    font-family: "Jost", sans-serif;
+    margin-top: 90px;
+    padding-top: 20px;
+}
+
+.home .cat .hh {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.home .cat .hh div {
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+
+}
+
+.home .cat .hh h2 {
+    font-weight: 500;
+    /* margin-bottom: 15px; */
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    color: white;
+    text-align: center;
+    background-color: #F3A202;
+    /* padding: 10px 0px; */
+    width: 100%;
+    margin-left: 0px
+}
+
+.home .cat .hh .hh11 {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh22 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh33 {
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh44 {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh55 {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh66 {
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh77 {
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh88 {
+    background-image: url(../img/8.webp);
+    background-size: cover;
+    margin: 20px
+}
+
+.home .cat .hh .hh99 {
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+    margin: 20px
+}
+
+
+.home .brand {
+    background-color: #e9ecef;
+}
+
+.home .brand .brand1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    white-space: nowrap;
+    font-family: "Jost", sans-serif;
+    background-color: #e9ecef;
+    padding-top: 110px;
+}
+
+.home .brand p {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.home .brand .images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding-bottom: 50px;
+
+}
+
+
+.home .contact .contact1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #37517e;
+    white-space: nowrap;
+    font-family: "Jost", sans-serif;
+    padding-top: 110px;
+}
+
+.home .contact .c1 {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.home .contact .contact2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.home .contact .contact2 .imge {
+    width: 45%;
+    height: 400px;
+    margin: 20px
+}
+
+.home .contact .contact2 .imge img {
+    width: 100%;
+    height:400px
+}
+
+.home .contact .contact2 .table {
+    width: 30%;
+margin: 30px;
+padding: 50px;
+padding-left:120px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: large;
+    border-top-style: solid;
+    border-top-color: #F3A202;
+    border-bottom-style: solid;
+    border-bottom-color: #F3A202;
+    text-align: center;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.497);
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+}
+
+.home .contact .contact2 .table table  {
+    
+margin:50px
+}
+
+.home .bef{
+    margin:100px;
+    
+}
+
+.home .bef h4{
+    
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        color: #37517e;
+        white-space: nowrap;
+        font-family: "Jost", sans-serif;
+        margin:10px
+        /* padding-top: 110px; */
+
+}
+
+.home .bef h5{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin:10px
+}
+
+.home .bef  button {
+    background-color: #F3A202;
+    font-family: "Jost", sans-serif;
+    border: 2px solid #F3A202;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: x-large;
+    width:50px;
+    height: 50px;
+
+
+    /* width: 150px;
+    height: 50px; */
+    border-radius: 100px;
+}
+
+.home .footer{
+    font-size: 14px;
+background: #37517e;
+padding :100px;
+font-family: "Jost", sans-serif;
+display: flex;
+justify-content: space-between;
+}
+
+.home .footer span {
+    color: #F3A202;
+}
